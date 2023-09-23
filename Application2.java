@@ -20,7 +20,7 @@ class DB
 		try
 		{
 			Class.forName("com.mysql.cj.jdbc.Driver");
-        		Connection con = \\ENTER THE DETAILS;
+        		Connection con = //ENTER THE DETAILS;
 			psi= con.prepareStatement("insert into student values(?,?,?,?,?,?,?,?,?)");
 			psm= con.prepareStatement("update student set sacadyr=?,strdid=?,strnm=?,sname=?,smobile=?,sbirthdt=?,semail=?,state=? where sprnno=?");
 			psd= con.prepareStatement("update student set state=0 where sprnno=?");
