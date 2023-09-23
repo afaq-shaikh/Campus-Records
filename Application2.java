@@ -183,9 +183,9 @@ class AddRecord extends JDialog implements ActionListener,FocusListener
 	JButton ba,bb;
 	JComboBox yr;
 	JTextField tid,ttnm,tsnm,tmail;
-	NTextField tmn;
+	NTextField tmn; // created the seprate file for mobile as input. 
 	int cnt,id,ayr;
-	NJDatePicker bd;
+	NJDatePicker bd; // created the seprate file for picking date.
 	String tnm,snm,pno,mail,mno;
 	DB ref;
 	Date bdate;
